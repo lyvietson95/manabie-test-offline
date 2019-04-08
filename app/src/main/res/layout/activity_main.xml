@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ManabieActivity">
+
+    <android.support.v7.widget.RecyclerView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/rvManabie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/rvManabie"
+        android:background="#B4AFAF"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <Button
+        android:background="@android:color/transparent"
+        android:textSize="35sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/detailView"
+        app:layout_constraintTop_toBottomOf="@id/view"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+</android.support.constraint.ConstraintLayout>
