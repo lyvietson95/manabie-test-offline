@@ -5,6 +5,8 @@ How to run this project:
 Link: https://github.com/lyvietson95/manabie-test-offline.git
 2. Build on Android device >= 4.2 (JELLY_BEAN).
 In this project using MVVM architecture, LiveData and Room in Android Component of Google. And apply Rxjava make to handle data easy.
+
 Using framework Butterknife for binding data.
+
 Note: Data in project just is dummy, if you want to change dummy data to remote data so please make it on Reponsitory class.
 
